@@ -1,17 +1,17 @@
 @font-face {
-    font-family: 'dancing script'; /* Custom name for the font */
-    src: url('./DancingScript-VariableFont_wght.ttf') format('ttf');     
+    font-family: 'dS'; /* Custom name for the font */
+    src: url('./DancingScript-VariableFont_wght.ttf') format('truetype');     
     font-weight: normal; 
     font-style: normal; 
-  }
+}
 
-  @font-face {
-    font-family: 'Pacifico'; /* Custom name for the font */
-    src: url('./Pacifico-Regular.ttf') format('ttf');     
+@font-face {
+    font-family: 'Pa'; /* Custom name for the font */
+    src: url('./Pacifico-Regular.ttf') format('truetype');     
     font-weight: normal; 
     font-style: normal; 
-  }
-  
+}
+
 
 
 * {
@@ -46,7 +46,7 @@ html, body {
 }
 
 #nav h1 {
-    font-family: Pacifico, cursive;
+    font-family: Pa;
     font-size: 2.5em;
     color: rgba(255, 255, 255, 0.9);
     text-align: center;
@@ -80,7 +80,7 @@ html, body {
     padding: 15px;
     border-radius: 10px;
     color: white;
-    font-family: "Dancing Script", cursive;
+    font-family: "dS", cursive;
     font-size: 1.6em;
     margin-top: -85px;
 }
@@ -200,7 +200,7 @@ html, body {
     
 }
 #nav2 h1{
-    font-family: dancing script;  
+    font-family: ds;  
     color: rgba(240, 230, 230, 0.812);
     font-size: 70px;
 }
@@ -243,7 +243,7 @@ html, body {
     font-size: 1.2rem;
     font-weight: bold;
     margin: 0;
-    font-family: dancing script;
+    font-family: dS;
 }
 
 #page2 p{
@@ -338,7 +338,7 @@ html, body {
 .lefft h1 {
     text-align: center;
     margin-top: 10vh; /* 100px converted to 10vh */
-    font-family: "Dancing Script";
+    font-family: "dS";
     color: rgba(228, 220, 220, 0.771);
     font-size: 8vh; /* 60px converted to 6vh */
 }
@@ -391,7 +391,7 @@ html, body {
 .lefft h1 {
     text-align: center;
     margin-top: 10vh;
-    font-family: "Dancing Script";
+    font-family: "ds";
     color: rgba(228, 220, 220, 0.771);
     font-size: 8vh;
 }
